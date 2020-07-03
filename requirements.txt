@@ -1,4 +1,15 @@
-Python==3.7.3
-pandas==0.24.2
-matplotlib==3.1.2
-seaborn==0.9.0
+Libraries
+from sqlalchemy import create_engine
+from functools import reduce
+import pandas as pd
+import requestspd
+from bs4 import BeautifulSoup
+import re
+
+
+-p
+data/raw/raw_data_project_m1.db
+-u
+https://ec.europa.eu/eurostat/statistics-p-explained/index.php/Glossary:Country_codes
+
+python main_script.py -p /Users/Nonis/Desktop/ih_datamadpt0420_project_m1/data/raw/raw_data_project_m1.db -u https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Country_codes
