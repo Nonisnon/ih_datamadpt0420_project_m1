@@ -1,10 +1,10 @@
-Libraries
-from sqlalchemy import create_engine
-from functools import reduce
-import pandas as pd
-import requestspd
-from bs4 import BeautifulSoup
-import re
+#Libraries
+#sqlalchemy import create_engine
+#from functools import reduce
+#import pandas as pd
+#import requestspd
+#from bs4 import BeautifulSoup
+#import re
 
 
 -p
